@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d26e6e;
+}
+.abertura {
+    text-align: center;
+}
+.lista ol{
+    text-align: left;
+}
+
+.hero {
+    background-image: url(imagens/minha\ cafeteria.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+.hero-content {
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+    color: rgb(45, 14, 18);
+}
+.hero-content h1 {
+    font-size: 56px;
+    text-shadow: 3px 3px 3px rgb(102, 94, 91);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero nav ul {
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 16px;
+}
+.hero nav a{
+    background-color: rgba(101, 37, 8, 0.845);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0, .5);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+
+}
+section{
+    padding-top: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #c94e60;
+    p {
+        text-align: justify;
+    }
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+
+.item p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+article h2{
+    border-bottom: 2px solid #ca0a0a;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.rodape{
+    color: white;
+    background-color: #6d301a;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
